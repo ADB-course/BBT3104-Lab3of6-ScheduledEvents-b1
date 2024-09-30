@@ -87,3 +87,4 @@ services:
       - ./container-volumes/phpmyadmin/config.user.inc.php:/etc/phpmyadmin/config.user.inc.php
     depends_on:
       - mysql
+      
